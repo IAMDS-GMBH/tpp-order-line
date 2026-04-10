@@ -1,0 +1,13 @@
+{
+  "name": "tpporderline",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \"cd backend && npm run start:dev\"",
+    "build": "npm run build --workspace=frontend && npm run build --workspace=backend"
+  }
+}
