@@ -1,17 +1,15 @@
-# TPP Order Line Project
+# TppOrderLine
 
-## Overview
-This repository contains the implementation of the TPP ordering system, specifically designed for the Bestellstrecke functionality. The primary focus is on ensuring data confidentiality and version control.
+Monorepo project with Nuxt frontend and nestjs backend.
 
-## Features
-* Confidentiality of sensitive data
-* Version control for collaborative development
+## Structure
 
-## Requirements
-* Please refer to the uploaded files for detailed requirements and specifications.
+- `frontend/` — Nuxt app
+- `backend/` — nestjs API
 
-## Contributing
-We welcome contributions to this project. If you'd like to contribute, please fork the repository and submit a pull request with your changes.
+## Getting Started
 
-## License
-This project is licensed under the MIT License.
+```bash
+pnpm install
+pnpm run dev
+```
